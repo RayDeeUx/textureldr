@@ -28,7 +28,6 @@ jobs:
           build-config: RelWithDebInfo # [vscode] comment this out (and the line below!) to Release mode
           export-pdb: true
           combine: true
-          sdk: nightly
           target: ${{ matrix.config.target }}
       
   package:
